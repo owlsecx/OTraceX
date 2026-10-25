@@ -18,13 +18,20 @@
 
 ## 📌 Overview
 
-TCP session-based traceroute through firewalls ║
+
+OTraceX is a visual traceroute and network-path analysis tool that maps the route to a destination and enriches each hop with geolocation and ASN data. It measures per-hop latency, plots the path, and highlights routing anomalies. It runs as a desktop application for authorized network diagnostics.
 
 ---
 
 ## ✨ Features
 
-- Advanced TCP/UDP/ICMP path tracing with RTT/jitter/loss and hop export (authorized recon)
+
+- Hop-by-hop traceroute with per-hop latency measurement
+- Geolocation and ASN enrichment for each hop
+- Visual path mapping of the route to the destination
+- Routing-anomaly and latency-spike highlighting
+- Export of trace results for later review
+- Desktop UI in the OWLSec theme with an offline --self-test
 
 ---
 
@@ -37,8 +44,11 @@ TCP session-based traceroute through firewalls ║
 
 ## 🚀 Usage
 
+
 ```bash
 ./OTraceX
+./OTraceX --self-test
+./OTraceX --help
 ```
 
 ---
